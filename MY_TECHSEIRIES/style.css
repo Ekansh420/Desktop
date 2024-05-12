@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sedan+SC&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    background-color: black;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+
+}
+.logo img{
+    height: ;
+    width: 200px;
+    padding: 10px;
+}
+nav ul{    
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 23px;
+    height: 15px;
+
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    font-size: 20px;
+    color: goldenrod;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+   margin-left: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 3.5px solid goldenrod;
+    height: 25px;
+    width: 300px;
+    border-right: none;
+    font-family:cursive ;
+    text-decoration: wavy underline;
+    font-size:10px ;
+    
+}
+.btn{
+    padding-left: 30px;
+    text-align: center;
+    height: 25px;
+    width: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    border-left: none;
+    border: 3.5px solid goldenrod;
+    background-color: goldenrod;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    &:hover{
+        color: rgb(0, 0, 0);
+}
+}
+.log{
+    margin-left: 75px;
+    background-color: red;
+    color: black;
+    border: 2.5px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    &:hover{
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        
+}
+   
+}
+main{
+    background-image: url(tech2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+    
+}
+.container{
+    min-height: calc(125vh - 58px - 3vh);
+}
+.slider{
+   
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    }
+.slider img{
+    height:300px ;
+    width: 1300px;
+}
+.slot{
+    background-color: transparent;
+    max-width: 260px;
+    padding-top: 10px;
+    display: flex;
+    
+}
+.slot h2{
+    padding:22px 0;
+    color: antiquewhite;
+    width: 80px
+    
+    ;
+}
+.slot-items{
+    margin: 0 20px;
+}
+.slot-items img{
+    height: 200px;
+    width: 250px;
+}
+.lines{
+
+   
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  background-color: black;
+  
+  
+}
+
+
+ footer{
+    height: 3vh;
+    background-color: black;
+    color: aliceblue;
+    
+        font-family: "Ubuntu Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+ }
+ 
+

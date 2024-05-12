@@ -1,0 +1,26 @@
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lines button{
+    background-color: red;
+    color: black;
+    height:45px ;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+    
+    &:hover{
+        font-size: 10px;
+        color: skyblue;
+
+    }
+}
+.center{
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+}
